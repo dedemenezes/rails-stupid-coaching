@@ -1,0 +1,43 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$dedegray: #d1d1d1;
+
+body {
+  background-color: white;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+p {
+  font-weight: lighter;
+}
+
+form {
+  display: flex;
+}
+
+#question {
+  font-size: 18px;
+  flex-grow: 1;
+  border: 1px solid $dedegray;
+  border-radius: 4px 0 0 4px;
+  line-height: 36px;
+  margin: 0;
+  border-right: none;
+}
+
+#ask {
+  margin: 0;
+  background-color: #337AB7;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 12px;
+  border: 1px solid $dedegray;
+  border-radius: 0 4px 4px 0;
+  border-left: none;
+}
+

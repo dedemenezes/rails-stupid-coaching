@@ -1,0 +1,17 @@
+// Place all the styles related to the answers controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$dedegray: #d1d1d1;
+
+blockquote {
+  margin: 25px auto;
+  padding: 4px 12px;
+  border-left: 8px solid $dedegray;
+}
+
+#coach_answer {
+  margin: 25px auto;
+  padding: 4px 12px;
+  border-left: 8px solid $dedegray;
+  background-color: #FFFFE1 ;
+}
